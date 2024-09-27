@@ -20,7 +20,7 @@ sorry
 
 
 @[autogradedProof 5]
-theorem problem2 (n : ℕ) : 5 ^ n ≡ 1 [ZMOD 8] ∨ 5 ^ n ≡ 5 [ZMOD 8] := by
+theorem problem2 (n : ℕ) : 5 ^ n ≡ 1 [ZMOD 5] ∨ 5 ^ n ≡ 5 [ZMOD 5] := by
   sorry
 
 def y : ℕ → ℕ

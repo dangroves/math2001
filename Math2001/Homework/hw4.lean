@@ -1,10 +1,16 @@
 /- Copyright (c) Heather Macbeth, 2023.  All rights reserved. -/
-import Mathlib.Tactic.GCongr
+import Mathlib.Data.Real.Basic
 import Library.Basic
+import Library.Tactic.Exhaust
 import Library.Tactic.ModEq
 import AutograderLib
+import Library.Theory.ParityModular
+
 
 math2001_init
+set_option quotPrecheck false
+
+open Set
 
 
 /-! # Homework 4

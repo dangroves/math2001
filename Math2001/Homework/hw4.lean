@@ -34,19 +34,19 @@ sorry
 
 
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem4a : { m : ℤ | m ≥ 10 } ⊆ { n : ℤ | n ^ 3 - 7 * n ^ 2 ≥ 4 * n } := by
   sorry
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem4b : { m : ℤ | m ≥ 10 } ⊈ { n : ℤ | n ^ 3 - 7 * n ^ 2 ≥ 4 * n } := by
   sorry
 
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem5a : { t : ℝ | t ^ 2 - 5 * t + 4 = 0 } = { s : ℝ | s = 4 } := by
   sorry
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem5b : { t : ℝ | t ^ 2 - 5 * t + 4 = 0 } ≠ { s : ℝ | s = 4 } := by
   sorry

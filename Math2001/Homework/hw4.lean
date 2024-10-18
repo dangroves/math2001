@@ -3,8 +3,8 @@ import Mathlib.Data.Real.Basic
 import Library.Basic
 import Library.Tactic.Exhaust
 import Library.Tactic.ModEq
-import AutograderLib
 import Library.Theory.ParityModular
+import AutograderLib
 
 
 math2001_init

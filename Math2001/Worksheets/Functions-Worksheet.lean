@@ -11,12 +11,6 @@ open Function
 namespace Int
 
 
-theorem thm71 {f : X → Y} (hinj : Injective f) (hsur : Surjective f) : Bijective f := by
-  sorry
-
-theorem them72 {f : X → Y} (hbij : Bijective f) : (Surjective f) ∧ (Injective f) := by
-  sorry
-
 theorem Prop9 {f : X → Y} {g : Y → Z} (hf : Injective f) (hg : Injective g) : Injective (g ∘ f) := by
   sorry
 

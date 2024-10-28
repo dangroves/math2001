@@ -39,6 +39,9 @@ theorem Prop4 :
 theorem Lemma5 : ∀ {x : ℝ}, ∃ y , |x-y| < 1 := by
   sorry
 
+theorem Prop6 : ∀ ε > 0 , ∃ δ > 0 , ∀ {x:ℝ} (0 < |x-2| ∧ |x-2| < δ) → | (x^2-4)/(x-2) - 4| < ε := by
+  sorry
+
 theorem Prop7 :
   ∀ ε > 0 , ∃ δ > 0 , ∀ {x:ℝ} , (0 < |x-4| ∧ |x-4| < δ) → |(3*x-5)-(3*4-5)| < ε := by
   sorry

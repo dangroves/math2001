@@ -39,6 +39,20 @@ theorem Prop4 :
 theorem Lemma5 : ∀ {x : ℝ}, ∃ y , |x-y| < 1 := by
   sorry
 
+
+/- It might be useful for Prop6 to know about the tactic "field_simp"
+If you have a hypothesis (h: b ≠ 0)
+Then you can write something like:
+  calc
+    (a*b)/b = a := by field_simp [h]
+(If you don't know that b is not 0, then (a*b)/b is 0/0, which is not a.)
+
+In the proof, lean knew that 0 < |x-2|, and I had real trouble convincing it that x-2 ≠ 0.
+I eventually figured this bit out, but if you have a nice proof of this, please let me know.
+If you can't work it out, feel free to get in touch with me.  - Prof. Groves
+-/
+
+
 theorem Prop6 : ∀ ε > 0 , ∃ δ > 0 , ∀ {x:ℝ} , (0 < |x-2| ∧ |x-2| < δ) → |(x^2-4)/(x-2) - 4| < ε := by
   sorry
 

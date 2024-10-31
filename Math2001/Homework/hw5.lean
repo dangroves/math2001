@@ -27,11 +27,11 @@ available as 215HW5.pdf on blackboard.
 theorem problem1 {f : X → Y} : (f ∘ id) = f := by
   sorry
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem2a : Bijective (fun (x : ℝ) ↦ 4 - 3 * x) := by
   sorry
 
-@[autogradedProof 4]
+@[autogradedProof 5]
 theorem problem2b : ¬ Bijective (fun (x : ℝ) ↦ 4 - 3 * x) := by
   sorry
 

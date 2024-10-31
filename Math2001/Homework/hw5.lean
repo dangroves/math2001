@@ -22,22 +22,21 @@ available as 215HW5.pdf on blackboard.
  -/
 
 /- The following is Proposition 14 from the Functions Worksheet -/
-def id (x : X) : X := x
 
 @[autogradedProof 5]
 theorem problem1 {f : X → Y} : (f ∘ id) = f := by
   sorry
 
-@[autograded 4]
+@[autogradedProof 4]
 theorem problem2a : Bijective (fun (x : ℝ) ↦ 4 - 3 * x) := by
   sorry
 
-@[autograded 4]
+@[autogradedProof 4]
 theorem problem2b : ¬ Bijective (fun (x : ℝ) ↦ 4 - 3 * x) := by
   sorry
 
 @[autogradedProof 5]
-theorem problem3 ∀ ε > 0 , ∃ δ > 0 ∀ {x:ℝ}, (0 < |x+2| ∧ |x+2|<δ) → |(2*x-5)+9|<ε := by
+theorem problem3 : ∀ ε > 0 , ∃ δ > 0, ∀ {x:ℝ}, |x+2|<δ → |(2*x-5)+9|<ε := by
   sorry
 
 

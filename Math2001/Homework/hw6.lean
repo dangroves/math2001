@@ -301,7 +301,7 @@ theorem problem1 {f : X → Y} {g:Y→Z} (h : Surjective (g∘f) ) : Surjective 
 
 
 @[autogradedProof 5]
-theorem problem2 : ∀ ε > 0  , ∃ (N:ℝ) , ∀ (n : ℝ),   n > N → 1/n < ε := by
+theorem problem2 : ∀ ε > 0  , ∃ (N:ℝ) , ∀ (n : ℝ),   n > N → n > 1/ε := by
   sorry
 
 @[autogradedProof 5]
